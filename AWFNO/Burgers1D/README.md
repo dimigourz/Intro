@@ -1,6 +1,6 @@
 # Alternating Windowed Fourier Neural Operators — 1D Burgers experiments
 
-Archive of the **four Google Colab notebooks** supplied for the numerical experiments accompanying the AWFNO manuscript revision. Source code and saved notebook outputs are retained. This folder documents results rather than claiming an independently verified reproduction.
+Archive of the **four Google Colab notebooks** supplied for the numerical experiments accompanying the AWFNO manuscript revision. The original source and markdown cells are retained. Executed output cells were removed to keep the repository clean; numerical summaries below are transcribed from the supplied experiment logs. This folder documents results rather than claiming an independently verified reproduction.
 
 ## Experiments
 
@@ -33,6 +33,6 @@ The initial-state-only architectures in folder 04 use a different information pr
 - All notebooks were authored for **Google Colab**, with HDF5 input and checkpoints/results stored on Google Drive. Set the `DATA_PATH` and `OUTPUT_ROOT` variables to your own locations.
 - The Burgers HDF5 dataset, trained checkpoints, and complete raw CSV/JSON output directories are **not** part of this archive.
 - **The ablation notebook is a launcher, not a standalone implementation:** it invokes `/content/burgers1d_reviewer_ablations_colab.py`. That companion script was not included in the supplied four notebooks.
-- The scripts and outputs have not been rerun or externally validated as part of this upload. Check the metric definitions, temporal protocol, split indices, training budget and random seeds before citing cross-notebook comparisons.
+- The uploaded code has not been rerun or externally validated as part of this upload. Check the metric definitions, temporal protocol, split indices, training budget and random seeds before citing cross-notebook comparisons.
 
 Last archived: 21 October 2026.
